@@ -23,7 +23,14 @@
                 <h:panelGrid columns="3" cellpadding="7" style="margin: 0 auto">                 
 
                   <p:outputLabel value="Teacher Name :"/>
-                  <p:inputText value="#{teacherBean.teacherName}" id="teacher" required="true" requiredMessage="please enter Student Name"/>
+                  <p:inputText value="#{teacherBean.teacherName}"  id="teacher" required="true" 
+                               requiredMessage="Please enter letter only "
+                               validatorMessage="Invalid input format"
+                               > 
+                               
+                  <f:validateRegex
+                      pattern="[A-Za-z]+" />
+                     </p:inputText> 
                   <p:message for="teacher"/>
                   
                    <p:outputLabel value="Subject Name :" />

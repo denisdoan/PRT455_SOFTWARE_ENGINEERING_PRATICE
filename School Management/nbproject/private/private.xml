@@ -2,4 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/index.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/resources/css/cssLayout.css</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/admin/adminPanel.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/admin/adminTemplate.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/public/publicTemplate.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/public/contactus.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/public/publicClassRoutine.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/public/publicNotice.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/public/publicResult.xhtml</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/src/java/school/notice/NoticeBean.java</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/src/java/school/user/LoginBean.java</file>
+            <file>file:/E:/wamp/www/school_management_system/School%20Management/web/admin/teacherRegistration.xhtml</file>
+        </group>
+    </open-files>
 </project-private>
