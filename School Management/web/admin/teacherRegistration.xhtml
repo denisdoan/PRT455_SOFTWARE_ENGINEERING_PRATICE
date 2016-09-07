@@ -10,9 +10,7 @@
 
     <ui:composition template="./adminTemplate.xhtml">
 
-      <ui:define name="title">
-        School Management - Admin - Registration info
-      </ui:define>
+      <ui:define name="title"> School Management - Administrator - Registration information</ui:define>
 
       <ui:define name="content">
         <f:view>
@@ -25,33 +23,37 @@
                   <p:outputLabel value="Teacher Name :"/>
                   <p:inputText value="#{teacherBean.teacherName}"  id="teacher" required="true" 
                                requiredMessage="Please enter letter only "
-                               validatorMessage="Invalid input format"
-                               > 
+                               validatorMessage="Invalid input format"> 
                                
                   <f:validateRegex
                       pattern="[A-Za-z]+" />
                      </p:inputText> 
-                  <p:message for="teacher"/>
-                  
+                  <p:message for="teacher"/>                  
                    <p:outputLabel value="Subject Name :" />
                   <p:selectOneMenu id="sub" value="#{teacherBean.subjectId}" required="true" requiredMessage="Please select class" style="width: 150px">
                     <f:selectItem itemLabel="--Select--" itemValue=""/>
                     <f:selectItems value="#{teacherBean.allSubject}" var="sub" itemLabel="#{sub.subject}" itemValue="#{sub.subjectId}"/>                                       
                   </p:selectOneMenu>
                   <p:message for="sub"/>
-                  
-                  <p:outputLabel value="Mobile Num :"/>
-                  <p:inputText value="#{teacherBean.teacherMobile}" id="mobile" required="true" requiredMessage="please enter Student Name"/>
+                                    <p:outputLabel value="Mobile Num :"/>
+                  <p:inputText value="#{teacherBean.teacherMobile}" id="mobile" 
+                               requiredMessage="Please enter number only "
+                               validatorMessage="Number only" > 
+                               
+                  <f:validateRegex
+                      pattern="^([+]?[\d]+)?$" />
+                     </p:inputText> 
                   <p:message for="mobile"/>
-
+                  
                   <p:outputLabel value="Present Address :"/>
-                  <p:inputTextarea value="#{teacherBean.teacherAddress}" id="addr" required="true" requiredMessage="please enter Student Name"/>
+                  <p:inputTextarea value="#{teacherBean.teacherAddress}" id="addr" required="true" 
+                                   requiredMessage="please enter the valid address"   />
+               
+                  
                   <p:message for="addr"/>
-
                   <p:outputLabel value="Joining Date :"/>
                   <p:calendar value="#{teacherBean.teacherJoinDate}" id="join" required="true" requiredMessage="please enter Student Name"/>
                   <p:message for="join"/>
-
                   <p:outputLabel value="Teacher Grade Name :" />
                   <p:selectOneMenu id="grade" value="#{teacherBean.teacherGradeId}" required="true" requiredMessage="Please select class" style="width: 150px">
                     <f:selectItem itemLabel="--Select--" itemValue=""/>
@@ -87,15 +89,34 @@
                   <p:message for="ut"/>
 
                   <p:outputLabel value="User Name :"/>
-                  <p:inputText id="unn" value="#{teacherBean.userName}" required="true" requiredMessage="please enter User Name" style="color: palevioletred"/>
+                  <p:inputText id="unn" value="#{teacherBean.userName}" required="true" 
+                               requiredMessage="please enter User Name" style="color: palevioletred"
+                               validatorMessage="Invalid User Name format">
+                      
+                   <f:validateRegex
+                      pattern="^[a-z]+[a-z0-9_]{2,}+[_a-z0-9]{0,}$" />
+                  </p:inputText> 
                   <p:message for="unn"/>
 
                   <p:outputLabel value="Password :"/>
-                  <p:password id="psss" value="#{teacherBean.newPassword}" required="true" requiredMessage="please enter password" style="color: peru"/>
+                  <p:password id="psss" value="#{teacherBean.newPassword}" required="true" 
+                              requiredMessage="please enter password" style="color: peru"
+                              validatorMessage="Minimum 8 characters at least 1 Alphabet and 1 Number:">
+                              
+                      <f:validateRegex
+                      pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
+                  </p:password> 
                   <p:message for="psss"/>
 
                   <p:outputLabel value="Confirm Password :"/>
-                  <p:password id="cpsss" value="#{teacherBean.confirmPassword}" required="true" requiredMessage="please enter password" style="color: peru"/>
+                  <p:password id="cpsss" value="#{teacherBean.confirmPassword}" required="true" 
+                              requiredMessage="please enter password" style="color: peru"
+                        validatorMessage="Minimum 8 characters at least 1 Alphabet and 1 Number:">
+                              
+                      <f:validateRegex
+                      pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
+                  </p:password> 
+                  
                   <p:message for="cpsss"/>
 
                   <p:outputLabel value="Photo :"/>
