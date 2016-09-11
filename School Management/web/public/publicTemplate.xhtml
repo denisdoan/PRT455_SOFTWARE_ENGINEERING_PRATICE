@@ -23,8 +23,7 @@
   </h:head>
 
   <h:body>
-    <div id="container">
-      <div id="top">
+        <div id="top">
         <ui:insert name="top">
           <f:view>
             <p:panel style="min-height: inherit; height: inherit;">          
@@ -55,13 +54,13 @@
                 </p:panel>            
 
                 <p:panel style="margin: 0px 0px 0px 150px;padding: 0;border: 0;font-variant: normal;background: none;" styleClass="menu">              
-                  <li><h:link value="Home" outcome='../index.xhtml"'/></li>
+                   <li><h:outputLink value="../index.xhtml">Home</h:outputLink></li>
                   <li><h:link value="Notice" outcome="publicNotice.xhtml"/></li>
                   <li><h:link value="Result" outcome="publicResult.xhtml"/></li>
-                  <li><h:link value="About us" outcome="about.xhtml"/></li>            
+                  <li><h:outputLink value="../about.xhtml">About Us</h:outputLink></li>           
                   <li><h:link value="Contact us" outcome="contactus.xhtml"/></li> 
                   <li><h:link value="Class Routine" outcome="publicClassRoutine"/></li>
-               <li> <h value="Teacher" href="publicTeacher.xhtml"/></li>
+                   <li><h:link value="Teacher" outcome="publicTeacher.xhtml"/></li>
                 </p:panel>
               </p:outputPanel>
 
@@ -69,6 +68,8 @@
           </f:view>
         </ui:insert>
       </div>
+    <div id="container">
+    
       <div id="center">
         <div id="left">
           
@@ -88,13 +89,17 @@
             </p:panel>
           </div>        
       </div>
+      
+    </div>
       <div id="bottom">
         <ui:insert name="bottom">
-          <p:panel style="min-height: inherit; margin: 0 auto;text-align: center;">
-            <p:outputLabel value="copyright &copy; 2013. This Product is made as the purpose of Education only."/>
-          </p:panel>
+                       <p:panel style="min-height: 60px; margin: 0 auto;text-align: center;color: white;
+                                box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/   -webkit-border-radius :7px;
+                                -moz-border-radius : 7px;">
+                           <p:outputLabel value="copyright &copy; 2013. This Product is made as the purpse of Education only.
+                                          Modified by DOAN TRONG TIEN - Prepared for Unit PRT455"/></p:panel>
+         
         </ui:insert>
       </div>
-    </div>
   </h:body>
 </html>

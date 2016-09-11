@@ -14,8 +14,7 @@
     <title>School Management System</title>
   </h:head>
   <h:body>
-    <div id="container">
-      <div id="top">
+       <div id="top">
         <ui:insert name="top"> 
           <f:view>
             <p:panel style="min-height: inherit; height: inherit;">             
@@ -24,6 +23,7 @@
                   <p:graphicImage value="./resources/images/schoollogo1.jpg" width="85px" height="90px"/>
                 </center>               
               </p:outputPanel>
+                
               <p:outputPanel>
                 <p:panel rendered="#{loginBean.showLogout}" style="float: right; border: 0;">
                   <f:view>
@@ -37,7 +37,7 @@
                   </f:view>
                 </p:panel>
 
-                <p:panel style="height: 60px; border: 0;padding: 0;color: #333300;">
+                <p:panel style="height: 60px; border: 0;padding: 0;color: green">
                   <p:outputLabel value="School Management System" styleClass="schname"/>
                 </p:panel>            
 
@@ -55,7 +55,13 @@
           </f:view>
         </ui:insert>
       </div>
+    <div id="container">
+     
       <div id="center">
+           <div id="left">    
+            <ui:insert name="left">
+            </ui:insert>              
+        </div>
              <div id="right">    
             <ui:insert name="right">
             </ui:insert>              
@@ -67,16 +73,19 @@
         </div>
       </div>
 
+    </div>
+      
       <div id="bottom">
         <ui:insert name="bottom">
-          <p:panel style="min-height: inherit; margin: 0 auto;text-align: center;">
-              <p:outputLabel value="copyright &copy; 2013. This Product is made as the purpse of Education only."/></p:panel>
-          <p:panel style="min-height: inherit; margin: 0 auto;text-align: center;color: green"> 
-              <p:outputLabel value="Modified by DOAN TRONG TIEN - DENIS (ID: s264804).Prepared for PRT455 - Software Engineering Practice"/>
-          </p:panel>
+                       <p:panel style="min-height: 60px; margin: 0 auto;text-align: center;color: white;
+                                box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/ 
+  -webkit-border-radius :7px;
+  -moz-border-radius : 7px;">
+                           <p:outputLabel value="copyright &copy; 2013. This Product is made as the purpse of Education only.
+                                          Modified by DOAN TRONG TIEN - Prepared for Unit PRT455"/></p:panel>
+         
         </ui:insert>
       </div>
-    </div>
   </h:body>
 
 </html>

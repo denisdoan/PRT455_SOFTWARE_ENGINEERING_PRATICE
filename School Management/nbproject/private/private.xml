@@ -5,10 +5,13 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/myTemplate.xhtml</file>
-            <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/public/index.xhtml</file>
+            <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/WEB-INF/faces-config.xml</file>
+            <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/admin/adminPanel.xhtml</file>
+            <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/gardian/gardianTemplate.xhtml</file>
             <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/index.xhtml</file>
-            <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/public/publicTemplate.xhtml</file>
+            <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/admin/adminTemplate.xhtml</file>
             <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/resources/css/cssLayout.css</file>
+            <file>jar:file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/lib/primefaces-3.5-sources.jar!/META-INF/resources/primefaces/galleria/galleria.css</file>
             <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/admin/home.xhtml</file>
             <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/resources/css/default.css</file>
             <file>file:/E:/wamp/www/PRT455_SOFTWARE_ENGINEERING_PRATICE/School%20Management/web/admin/teacherRegistration.xhtml</file>
