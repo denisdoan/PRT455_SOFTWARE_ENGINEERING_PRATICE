@@ -45,7 +45,7 @@ public class SubjectUpdateTest extends TestCase {
         int result = instance.getNewSubjectCode();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.setNewSubjectCode(newSubjectCode);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectBean result = instance.getSelectedRow();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        //fail("The test case is a prototype."); 
     }
 
     /**
@@ -82,7 +82,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.setSelectedRow(selectedRow);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class SubjectUpdateTest extends TestCase {
         int result = instance.getSubjectCode();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.setSubjectCode(subjectCode);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class SubjectUpdateTest extends TestCase {
         int result = instance.getSubjectId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.setSubjectId(subjectId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -145,7 +145,7 @@ public class SubjectUpdateTest extends TestCase {
         String result = instance.getSubjectName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -157,7 +157,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.setSubjectName(subjectName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -168,7 +168,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.doSetSelectedRow();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -181,7 +181,7 @@ public class SubjectUpdateTest extends TestCase {
         List<Integer> result = instance.getAllSubjectCodes();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -192,7 +192,7 @@ public class SubjectUpdateTest extends TestCase {
         SubjectUpdate instance = new SubjectUpdate();
         instance.updateSubjectName();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

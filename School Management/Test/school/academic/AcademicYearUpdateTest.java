@@ -45,7 +45,7 @@ public class AcademicYearUpdateTest extends TestCase {
         int result = instance.getAcyid();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.setAcyid(acyid);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class AcademicYearUpdateTest extends TestCase {
         int result = instance.getNewAcyear();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.setNewAcyear(newAcyear);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class AcademicYearUpdateTest extends TestCase {
         int result = instance.getAcyear();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.setAcyear(acyear);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class AcademicYearUpdateTest extends TestCase {
         boolean result = instance.isClosed();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.setClosed(closed);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -145,7 +145,7 @@ public class AcademicYearUpdateTest extends TestCase {
         int result = instance.getNumberOfExam();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -157,7 +157,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.setNumberOfExam(numberOfExam);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -170,7 +170,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearBean result = instance.getSelectedRow();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -182,7 +182,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.setSelectedRow(selectedRow);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -195,7 +195,7 @@ public class AcademicYearUpdateTest extends TestCase {
         List<Integer> result = instance.getAllAcyears();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -206,7 +206,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.doSetSelectedRow();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -217,7 +217,7 @@ public class AcademicYearUpdateTest extends TestCase {
         AcademicYearUpdate instance = new AcademicYearUpdate();
         instance.updateData();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

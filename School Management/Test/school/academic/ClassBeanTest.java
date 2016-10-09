@@ -45,7 +45,7 @@ public class ClassBeanTest extends TestCase {
         int result = instance.getClassId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.setClassId(classId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class ClassBeanTest extends TestCase {
         String result = instance.getClassName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.setClassName(className);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class ClassBeanTest extends TestCase {
         String result = instance.getNewClassName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.setNewClassName(newClassName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class ClassBeanTest extends TestCase {
         int result = instance.getSerialNo();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.setSerialNo(serialNo);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -143,7 +143,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.insertClassName();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -156,7 +156,7 @@ public class ClassBeanTest extends TestCase {
         List<String> result = instance.getAllClasses();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -169,7 +169,7 @@ public class ClassBeanTest extends TestCase {
         List<ClassBean> result = instance.getAllClassName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -180,7 +180,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.updateData();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -191,7 +191,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.deleteData();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -202,7 +202,7 @@ public class ClassBeanTest extends TestCase {
         ClassBean instance = new ClassBean();
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

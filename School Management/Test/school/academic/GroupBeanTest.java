@@ -45,7 +45,7 @@ public class GroupBeanTest extends TestCase {
         int result = instance.getGroupId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.setGroupId(groupId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class GroupBeanTest extends TestCase {
         String result = instance.getGroupName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.setGroupName(groupName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class GroupBeanTest extends TestCase {
         String result = instance.getNewGroupName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.setNewGroupName(newGroupName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class GroupBeanTest extends TestCase {
         boolean result = instance.isGroupStatus();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.setGroupStatus(groupStatus);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -143,7 +143,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.insertGroupName();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -156,7 +156,7 @@ public class GroupBeanTest extends TestCase {
         List<String> result = instance.getAllGroups();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -169,7 +169,7 @@ public class GroupBeanTest extends TestCase {
         List<GroupBean> result = instance.getAllGroupName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -180,7 +180,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.groupDeleteData();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -191,7 +191,7 @@ public class GroupBeanTest extends TestCase {
         GroupBean instance = new GroupBean();
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

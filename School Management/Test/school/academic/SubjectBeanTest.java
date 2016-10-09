@@ -45,7 +45,7 @@ public class SubjectBeanTest extends TestCase {
         int result = instance.getSubjectCode();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.setSubjectCode(subjectCode);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class SubjectBeanTest extends TestCase {
         int result = instance.getNewSubjectCode();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.setNewSubjectCode(newSubjectCode);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class SubjectBeanTest extends TestCase {
         int result = instance.getSubjectId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.setSubjectId(subjectId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class SubjectBeanTest extends TestCase {
         String result = instance.getSubjectName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.setSubjectName(subjectName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -145,7 +145,7 @@ public class SubjectBeanTest extends TestCase {
         List<Integer> result = instance.getAllSubjectCodes();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -156,7 +156,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.insertSubject();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -169,7 +169,7 @@ public class SubjectBeanTest extends TestCase {
         List<SubjectBean> result = instance.getAllSubjectName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -180,7 +180,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.deleteSubjectName();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -191,7 +191,7 @@ public class SubjectBeanTest extends TestCase {
         SubjectBean instance = new SubjectBean();
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

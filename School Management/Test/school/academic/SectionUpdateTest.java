@@ -45,7 +45,7 @@ public class SectionUpdateTest extends TestCase {
         int result = instance.getAcyear();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setAcyear(acyear);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class SectionUpdateTest extends TestCase {
         int result = instance.getAcyearId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setAcyearId(acyearId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class SectionUpdateTest extends TestCase {
         int result = instance.getClassId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setClassId(classId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class SectionUpdateTest extends TestCase {
         String result = instance.getClassName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setClassName(className);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -145,7 +145,7 @@ public class SectionUpdateTest extends TestCase {
         int result = instance.getSectionId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -157,7 +157,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setSectionId(sectionId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -170,7 +170,7 @@ public class SectionUpdateTest extends TestCase {
         String result = instance.getSectionName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -182,7 +182,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setSectionName(sectionName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -195,7 +195,7 @@ public class SectionUpdateTest extends TestCase {
         SectionBean result = instance.getSelectedRow();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -207,7 +207,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.setSelectedRow(selectedRow);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -220,7 +220,7 @@ public class SectionUpdateTest extends TestCase {
         List<SectionUpdate> result = instance.getAllAcyears();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -233,7 +233,7 @@ public class SectionUpdateTest extends TestCase {
         List<SectionUpdate> result = instance.getAllClasses();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -244,7 +244,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.prepareUpdate();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -255,7 +255,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.updateSection();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -266,7 +266,7 @@ public class SectionUpdateTest extends TestCase {
         SectionUpdate instance = new SectionUpdate();
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

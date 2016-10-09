@@ -45,7 +45,7 @@ public class GroupUpdateTest extends TestCase {
         int result = instance.getGroupId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.setGroupId(groupId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class GroupUpdateTest extends TestCase {
         String result = instance.getGroupName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.setGroupName(groupName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class GroupUpdateTest extends TestCase {
         boolean result = instance.isGroupStatus();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.setGroupStatus(groupStatus);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class GroupUpdateTest extends TestCase {
         String result = instance.getNewGroupName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.setNewGroupName(newGroupName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -145,7 +145,7 @@ public class GroupUpdateTest extends TestCase {
         GroupBean result = instance.getSelectedRow();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -157,7 +157,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.setSelectedRow(selectedRow);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -170,7 +170,7 @@ public class GroupUpdateTest extends TestCase {
         List<String> result = instance.getAllGroups();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -181,7 +181,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.doSetSelectedRow();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -192,7 +192,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.groupUpdateData();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -203,7 +203,7 @@ public class GroupUpdateTest extends TestCase {
         GroupUpdate instance = new GroupUpdate();
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

@@ -45,7 +45,7 @@ public class SectionBeanTest extends TestCase {
         int result = instance.getAcyear();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,7 +57,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.setAcyear(acyear);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -70,7 +70,7 @@ public class SectionBeanTest extends TestCase {
         int result = instance.getAcyearId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,7 +82,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.setAcyearId(acyearId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,7 +95,7 @@ public class SectionBeanTest extends TestCase {
         int result = instance.getClassId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.setClassId(classId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -120,7 +120,7 @@ public class SectionBeanTest extends TestCase {
         String result = instance.getClassName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -132,7 +132,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.setClassName(className);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -145,7 +145,7 @@ public class SectionBeanTest extends TestCase {
         int result = instance.getSectionId();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -157,7 +157,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.setSectionId(sectionId);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -170,7 +170,7 @@ public class SectionBeanTest extends TestCase {
         String result = instance.getSectionName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -182,7 +182,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.setSectionName(sectionName);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -195,7 +195,7 @@ public class SectionBeanTest extends TestCase {
         List<SectionBean> result = instance.getAllSectionName();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -208,7 +208,7 @@ public class SectionBeanTest extends TestCase {
         List<SectionBean> result = instance.getAllClasses();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -221,7 +221,7 @@ public class SectionBeanTest extends TestCase {
         List<SectionBean> result = instance.getAllAcyears();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -232,7 +232,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.insertSection();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -243,7 +243,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.deleteSection();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -254,7 +254,7 @@ public class SectionBeanTest extends TestCase {
         SectionBean instance = new SectionBean();
         instance.clear();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
